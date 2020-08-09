@@ -1,0 +1,48 @@
+Title: CONNECTOR
+
+1. Introduction
+	'CONNECTOR' is an online blogging platform where registered users can post content and it automatically links to other users posts which are similar in content. users should follow hashtags inorder to populate their feed with posts and they can upvote or downvote, comment those posts.
+
+	Goals:
+
+	Basic:
+
+	1. Ability to register and de-register from the system.
+	2. Secure Authentication
+	3. Algorithm inorder to match content between two posts.
+	4. Ranking of posts 
+	5. Responsive design and content rendering.
+	6. Posts recommendations based on user interests.
+	7. Trending posts column.
+	8. Saving articles option
+
+	Additional:
+
+	9. Personal chatting or leaving note on article.
+	10. Generation of links to posts from other blogging platforms through web scraping.
+	
+
+
+	Benifits:
+
+	People can post their content and assess with other users content. users can easily look out for all other similar articles right in their current feed. Also as we generate links for similar posts, users tries to avoid significant plagiarism in their content.
+
+
+
+2. Expected list of features
+
+	1. profile edit feature to update their users information.
+	2. text editor for creating posts.
+	3. option to edit your post.
+	4. user mention feature in the posts and comments inorder to send notifications.
+	5. users can upvote or downvote only once per post.
+	6. search posts with similar hashtags.
+	7. Recursive threads for comments.
+	8. upvote and downvote feature for comments.
+	9. Bookmark articles.
+
+
+3.
+	https://dev.to/  In this application users can post content and follow other users but in my application users can only follow hashtags and can't connect to other users. 
+	https://www.reddit.com/ 
+	https://medium.com/
