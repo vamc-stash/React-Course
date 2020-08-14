@@ -1,0 +1,372 @@
+{
+  "dishes": [
+    {
+      "id": 0,
+      "name": "Uthappizza",
+      "image": "images/uthappizza.png",
+      "category": "mains",
+      "label": "Hot",
+      "price": "4.99",
+      "featured": true,
+      "description": "A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer."
+    },
+    {
+      "id": 1,
+      "name": "Zucchipakoda",
+      "image": "images/zucchipakoda.png",
+      "category": "appetizer",
+      "label": "",
+      "price": "1.99",
+      "featured": false,
+      "description": "Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce"
+    },
+    {
+      "id": 2,
+      "name": "Vadonut",
+      "image": "images/vadonut.png",
+      "category": "appetizer",
+      "label": "New",
+      "price": "1.99",
+      "featured": false,
+      "description": "A quintessential ConFusion experience, is it a vada or is it a donut?"
+    },
+    {
+      "id": 3,
+      "name": "ElaiCheese Cake",
+      "image": "images/elaicheesecake.png",
+      "category": "dessert",
+      "label": "",
+      "price": "2.99",
+      "featured": false,
+      "description": "A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms"
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "dishId": 0,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 1,
+      "dishId": 0,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 2,
+      "dishId": 0,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 3,
+      "dishId": 0,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 4,
+      "dishId": 0,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 5,
+      "dishId": 1,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 6,
+      "dishId": 1,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 7,
+      "dishId": 1,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 8,
+      "dishId": 1,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 9,
+      "dishId": 1,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 10,
+      "dishId": 2,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 11,
+      "dishId": 2,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 12,
+      "dishId": 2,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 13,
+      "dishId": 2,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 14,
+      "dishId": 2,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 15,
+      "dishId": 3,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 16,
+      "dishId": 3,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 17,
+      "dishId": 3,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 18,
+      "dishId": 3,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 19,
+      "dishId": 3,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 3,
+      "rating": "3",
+      "author": "vamsi",
+      "comment": "this is a comment",
+      "date": "2020-08-14T11:46:25.773Z",
+      "id": 20
+    },
+    {
+      "dishId": 1,
+      "rating": "3",
+      "author": "harold",
+      "comment": "this is a test",
+      "date": "2020-08-14T14:48:32.031Z",
+      "id": 21
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Weekend Grand Buffet",
+      "image": "images/buffet.png",
+      "label": "New",
+      "price": "19.99",
+      "featured": true,
+      "description": "Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person "
+    }
+  ],
+  "leaders": [
+    {
+      "id": 0,
+      "name": "Peter Pan",
+      "image": "images/alberto.png",
+      "designation": "Chief Epicurious Officer",
+      "abbr": "CEO",
+      "featured": false,
+      "description": "Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which The Frying Pan became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections."
+    },
+    {
+      "id": 1,
+      "name": "Dhanasekaran Witherspoon",
+      "image": "images/alberto.png",
+      "designation": "Chief Food Officer",
+      "abbr": "CFO",
+      "featured": false,
+      "description": "Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, Everything that runs, wins, and everything that stays, pays!"
+    },
+    {
+      "id": 2,
+      "name": "Agumbe Tang",
+      "image": "images/alberto.png",
+      "designation": "Chief Taste Officer",
+      "abbr": "CTO",
+      "featured": false,
+      "description": "Blessed with the most discerning gustatory sense, Agumbe, our CFO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, You click only if you survive my lick."
+    },
+    {
+      "id": 3,
+      "name": "Alberto Somayya",
+      "image": "images/alberto.png",
+      "designation": "Executive Chef",
+      "abbr": "EC",
+      "featured": true,
+      "description": "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
+    }
+  ],
+  "feedback": [
+    {
+      "firstname": "fdas",
+      "lastname": "afds",
+      "telnum": "134113",
+      "email": "dafdads@daffas.dfdafd",
+      "agree": true,
+      "contactType": "Email",
+      "message": "afadsfds",
+      "date": "2017-12-04T09:41:49.890Z",
+      "id": 1
+    },
+    {
+      "firstname": "vamsi",
+      "lastname": "chenna",
+      "telnum": "2222222",
+      "email": "admin1@mail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "feedback #1",
+      "date": "2020-08-14T14:43:54.926Z",
+      "id": 2
+    },
+    {
+      "firstname": "John",
+      "lastname": "Reese",
+      "telnum": "333333333333",
+      "email": "av06031971@gmail.com",
+      "agree": false,
+      "contactType": "Tel.",
+      "message": "feedback #2",
+      "date": "2020-08-14T14:45:02.874Z",
+      "id": 3
+    },
+    {
+      "firstname": "Harold",
+      "lastname": "Finch",
+      "telnum": "34565432345",
+      "email": "student1@mail.com",
+      "agree": true,
+      "contactType": "Tel.",
+      "message": "Machine pops numbers",
+      "date": "2020-08-14T15:01:53.584Z",
+      "id": 4
+    },
+    {
+      "firstname": "shaw",
+      "lastname": "sameen",
+      "telnum": "1243545",
+      "email": "student1@mail.com",
+      "agree": true,
+      "contactType": "Tel.",
+      "message": "w3etrt",
+      "date": "2020-08-14T15:03:07.014Z",
+      "id": 5
+    },
+    {
+      "firstname": "root",
+      "lastname": "path",
+      "telnum": "23456",
+      "email": "admin1@mail.com",
+      "agree": false,
+      "contactType": "Tel.",
+      "message": "wersf",
+      "date": "2020-08-14T15:04:32.489Z",
+      "id": 6
+    },
+    {
+      "firstname": "hello",
+      "lastname": "kjsfk",
+      "telnum": "12345",
+      "email": "admin1@mail.com",
+      "agree": true,
+      "contactType": "Tel.",
+      "message": "fdhgfg",
+      "date": "2020-08-14T15:05:53.812Z",
+      "id": 7
+    },
+    {
+      "firstname": "asdxfvh",
+      "lastname": "qdfgh",
+      "telnum": "12343545",
+      "email": "admin1@mail.com",
+      "agree": false,
+      "contactType": "Tel.",
+      "message": "aesrdtfy",
+      "date": "2020-08-14T15:07:18.161Z",
+      "id": 8
+    },
+    {
+      "firstname": "Lionel",
+      "lastname": "Fusco",
+      "telnum": "1234567",
+      "email": "admin1@mail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "NYPD",
+      "date": "2020-08-14T15:08:18.257Z",
+      "id": 9
+    }
+  ]
+}
