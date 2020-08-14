@@ -3,6 +3,7 @@ import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbIte
 Modal, ModalHeader, ModalBody, Label, Row, Col} from 'reactstrap';
 import {Control, LocalForm, Errors} from 'react-redux-form';
 import {Link} from 'react-router-dom';
+import {Loading} from './LoadingComponent';
 
 const required = (val) => val && val.length
 const maxLength = (len) => (val) => !(val) || (val.length <= len)
@@ -129,9 +130,28 @@ function RenderComments({comments, addComment, dishId}) {
 }
 
 const DishDetail = (props) => {
+
+		if(props.isLoading) {
+			return(
+					<div className="container">
+						<div className="row">
+							<Loading/>
+						</div>
+					</div>
+				)
+		}
+		else if(props.errMsg) {
+			return(
+					<div className="container">
+						<div className="row">
+							<h4>{props.errMsg}</h4>
+						</div>
+					</div>
+				)
+		}
+			
 		return(
 			<div className="container">
-
 				<div className="row">
 					<Breadcrumb>
 						<BreadcrumbItem><Link to="/menu">Menu</Link></BreadcrumbItem>
