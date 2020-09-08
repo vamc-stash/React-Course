@@ -5,9 +5,10 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var session = require('express-session');
 var FileStore = require('session-file-store')(session);
-
 var passport = require('passport')
+
 var authenticate = require('./authenticate')
+var config = require('./config')
 
 
 var indexRouter = require('./routes/index');
@@ -19,7 +20,7 @@ const leaderRouter = require('./routes/leaderRouter')
 
 const mongoose = require('mongoose')
 
-const url = 'mongodb://localhost:27017/conFusion';
+const url = config.mongoUrl
 const connect = mongoose.connect(url)
 
 connect.then((db) => {
@@ -36,21 +37,21 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 //app.use(cookieParser('your-secret-key-1234-whatever'));
-app.use(session({
+/*app.use(session({
 	name: 'session-id',
 	secret: 'your-secret-key-1234-whatever',
 	saveUninitialized: false,
 	resave: false,
 	store: new FileStore()
-}))
+}))*/
 
 app.use(passport.initialize())
-app.use(passport.session())
+//app.use(passport.session())
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-function auth(req, res, next) {
+/*function auth(req, res, next) {
 	console.log(req.user)
 
 	if(!req.user) {
@@ -63,7 +64,7 @@ function auth(req, res, next) {
 	}
 }
 
-app.use(auth)
+app.use(auth)*/
 
 app.use(express.static(path.join(__dirname, 'public')));
 
