@@ -11,7 +11,7 @@ const commentRouter = express.Router()
 commentRouter.route('/')
 .options(cors.corsWithOptions, (req, res) => {res.sendStatus(200)})
 .get(cors.cors, (req,res,next) => {
-	Comments.findById(req.query)
+	Comments.find(req.query)
 	.populate('author')
 	.then((comments) => {
 		res.statusCode = 200

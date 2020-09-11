@@ -12,7 +12,7 @@ favoriteRouter.use(bodyParser.json());
 favoriteRouter.route('/')
 .options(cors.corsWithOptions, (req, res) => {res.sendStatus(200)})
 .get(cors.cors, authenticate.verifyUser, (req,res,next) => {
-	Favorites.find({})
+	Favorites.findOne({user: req.user._id})
 	.populate('user')
 	.populate('dishes')
 	.then((favorites) => {
@@ -24,7 +24,7 @@ favoriteRouter.route('/')
 })
 
 .post(cors.corsWithOptions, authenticate.verifyUser, (req, res, next) => {
-	Favorites.findOne()
+	Favorites.findOne({user: req.user._id})
 	.then((favorites) => {
 		if(!favorites) {
 			Favorites.create({user: req.user._id})
@@ -83,7 +83,7 @@ favoriteRouter.route('/')
 })
 
 .delete(cors.corsWithOptions, authenticate.verifyUser, (req, res, next) => {
-	Favorites.remove({})
+	Favorites.find({user: req.user._id}).remove()
 	.then((resp) => {
 		res.statusCode = 200
 		res.setHeader('Content-Type', 'application/json')
@@ -120,7 +120,7 @@ favoriteRouter.route('/:dishId')
 })
 
 .post(cors.corsWithOptions, authenticate.verifyUser, (req, res, next) => {
-	Favorites.findOne()
+	Favorites.findOne({user: req.user._id})
 	.then((favorites) => {
 		if(!favorites) {
 			Favorites.create({user: req.user._id})
@@ -164,7 +164,7 @@ favoriteRouter.route('/:dishId')
 })
 
 .delete(cors.corsWithOptions, authenticate.verifyUser, (req, res, next) => {
-	Favorites.findOne()
+	Favorites.findOne({user: req.user._id})
 	.then((favorites) => {
 		if(favorites) {
 			const index = favorites.dishes.indexOf(req.params.dishId)
