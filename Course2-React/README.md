@@ -47,7 +47,10 @@
   
   ### Redux Thunk
   - [Redux Thunk](https://github.com/reduxjs/redux-thunk)
- 
+  
+## React Hooks
+  - [mapStateToProps, mapDispatchToProps Vs useSelector, useDispatch](https://thoughtbot.com/blog/using-redux-with-react-hooks)
+  
 ## JSON Server
   - [json-server](https://github.com/typicode/json-server)
   - [Creating Demo APIs with json-server](https://egghead.io/lessons/javascript-creating-demo-apis-with-json-server)
