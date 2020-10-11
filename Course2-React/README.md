@@ -50,6 +50,8 @@
   
 ## React Hooks
   - [mapStateToProps, mapDispatchToProps Vs useSelector, useDispatch](https://thoughtbot.com/blog/using-redux-with-react-hooks)
+  - [How to fetch data with React Hooks?](https://www.robinwieruch.de/react-hooks-fetch-data)
+  - [A complete guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/)
   
 ## JSON Server
   - [json-server](https://github.com/typicode/json-server)
